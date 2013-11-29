@@ -1,0 +1,5 @@
+C:\Documents and Settings\yangdaxu\My Documents\GitHub\MyFinance\MyFinance\MyFinance\bin\MyFinance.dll
+C:\Documents and Settings\yangdaxu\My Documents\GitHub\MyFinance\MyFinance\MyFinance\bin\MyFinance.pdb
+C:\Documents and Settings\yangdaxu\My Documents\GitHub\MyFinance\MyFinance\MyFinance\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yangdaxu\My Documents\GitHub\MyFinance\MyFinance\MyFinance\obj\Debug\MyFinance.dll
+C:\Documents and Settings\yangdaxu\My Documents\GitHub\MyFinance\MyFinance\MyFinance\obj\Debug\MyFinance.pdb
