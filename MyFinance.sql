@@ -1,3 +1,29 @@
+--´´½¨±í
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tKindOfCost]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tKindOfCost]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tAccount]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tAccount]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tBusiness]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tBusiness]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tTransfer]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tTransfer]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tPerson]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tPerson]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tTransferStatus]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tTransferStatus]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tFlagDefine]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tFlagDefine]
+GO
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE ID = object_id(N'[dbo].[tBalance]') AND OBJECTPROPERTY(ID, N'IsUserTable') = 1)
+	DROP TABLE [dbo].[tBalance]
+GO
+
 create table tKindOfCost
 (ID int primary key identity(1,1),Name nvarchar(50) not null default(''),ParentID int not null)
 create table tAccount
